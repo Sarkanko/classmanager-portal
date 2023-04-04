@@ -81,8 +81,12 @@ WSGI_APPLICATION = 'classmanager.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase',
+        'USER': 'homework002admin',
+        'PASSWORD': 'authenticyippeedecember1',
+        'HOST': 'db-homework002.postgres.database.azure.com',
+        'PORT': '5432',
     }
 }
 
