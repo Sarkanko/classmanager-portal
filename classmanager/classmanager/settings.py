@@ -28,7 +28,7 @@ SECRET_KEY = '13x8r2se41dawv$7!a-p_h4ni$^i^+r@le7wuadd6gmzb=$ss*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'classroom.User'
 
@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mydatabase',
         'USER': 'homework002admin',
-        'PASSWORD': 'authenticyippeedecember1',
+        'PASSWORD': 'admin123.',
         'HOST': 'db-homework002.postgres.database.azure.com',
         'PORT': '5432',
     }
