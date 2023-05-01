@@ -80,14 +80,14 @@ WSGI_APPLICATION = 'classmanager.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mydatabase',
-        'USER': 'homework002admin',
-        'PASSWORD': 'admin123.',
-        'HOST': 'db-homework002.postgres.database.azure.com',
-        'PORT': '5432',
-    }
+        'default': {
+            'ENGINE': 'djongo',
+            'NAME': 'test',
+            'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': 'mongodb://db-homework003:RWxaerSPO2g4cato0aTPhWTDBbLvXmOSdysiMald42K4MyI5n87Gmgft6466h9elHwSJM4ZZuZyjACDbNEJm4g==@db-homework003.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@db-homework003@'
+            }  
+        }
 }
 
 
