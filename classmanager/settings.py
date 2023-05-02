@@ -83,7 +83,7 @@ DATABASES = {
         'default': {
             'ENGINE': 'djongo',
             'NAME': 'test',
-            'ENFORCE_SCHEMA': False,
+            'ENFORCE_SCHEMA': True,
             'CLIENT': {
                 'host': 'mongodb://db-homework003:RWxaerSPO2g4cato0aTPhWTDBbLvXmOSdysiMald42K4MyI5n87Gmgft6466h9elHwSJM4ZZuZyjACDbNEJm4g==@db-homework003.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@db-homework003@'
             }  
